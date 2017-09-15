@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:latest
 
 RUN apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev git
 
